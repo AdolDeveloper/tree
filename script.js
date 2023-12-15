@@ -1,7 +1,12 @@
 document.addEventListener("DOMContentLoaded", function () {
     // Inicia la animación de nieve
-    $('#background').snowfall({flakeCount: 100, maxSpeed: 5, maxSize: 5});
-
+     $('#background').snowfall({
+        flakeCount: 100,
+        maxSpeed: 5,
+        maxSize: 5,
+        flakeColor: '#ffffff'  // Color blanco
+    });
+    
     openPopup();
     initCarousel();
     setTimeout(() => {
