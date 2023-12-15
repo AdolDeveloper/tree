@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
             // Después de 7 segundos, muestra el modal
             setTimeout(() => {
                 showPopup("Por ser la mejor novia que existe", "https://youtu.be/3vCLDyI-lXo?si=oU5bLd__2G4yNXfL");
-            }, 7000);
+            }, 3000);
         }, 8000);
         
     }, 9000); // Cerrar automáticamente después de 8 segundos
